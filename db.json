@@ -1,9 +1,32 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": 1,
+      "title": "a",
+      "price": 10,
+      "img": "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+      "type": "action"
+    },
+    {
+      "id": 2,
+      "title": "b",
+      "price": 20,
+      "img": "https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg",
+      "type": "daily"
+    },
+    {
+      "id": 3,
+      "title": "c",
+      "price": 30,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqffFu_JEH6yhJUG4cX5rfhabtgRUlblRUEJ7smPK5xSvdjGqS35k7yiBAchjJAlXbWhI&usqp=CAU",
+      "type": "daily"
+    },
+    {
+      "id": 4,
+      "title": "d",
+      "price": 40,
+      "img": "https://petapixel.com/assets/uploads/2022/07/DALLEcopy.jpg",
+      "type": "fantasy"
+    }
+  ]
 }
